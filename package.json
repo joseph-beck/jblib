@@ -11,10 +11,12 @@
     "fmt:fix": "prettier --write --cache .",
     "sherif": "sherif",
     "sherif:fix": "sherif -f",
-    "ci": "pnpm run fmt && pnpm run lint && pnpm run test && pnpm run sherif && pnpm run build",
+    "typecheck": "pnpm -r typecheck",
+    "ci": "pnpm run fmt && pnpm run lint && pnpm run test && pnpm run sherif && pnpm run typecheck && pnpm run build",
     "changeset": "changeset",
     "changeset:version": "changeset version && pnpm install --no-frozen-lockfile && pnpm fmt:fix",
-    "changeset:publish": "changeset publish"
+    "changeset:publish": "changeset publish",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +27,7 @@
     "@changesets/cli": "catalog:",
     "@types/node": "catalog:",
     "eslint": "catalog:",
+    "husky": "catalog:",
     "jiti": "catalog:",
     "jsdom": "catalog:",
     "prettier": "catalog:",
@@ -32,8 +35,7 @@
     "sherif": "catalog:",
     "tsdown": "catalog:",
     "typescript": "catalog:",
-    "typescript-eslint": "catalog:",
-    "husky": "catalog:"
+    "typescript-eslint": "catalog:"
   },
   "private": true
 }
