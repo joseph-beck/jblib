@@ -1,5 +1,11 @@
 # @jblib/is
 
+## 0.0.8
+
+### Patch Changes
+
+- d0cc3f2: add typecheck
+
 ## 0.0.7
 
 ### Patch Changes
