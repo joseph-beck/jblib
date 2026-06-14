@@ -32,7 +32,8 @@
     "sherif": "catalog:",
     "tsdown": "catalog:",
     "typescript": "catalog:",
-    "typescript-eslint": "catalog:"
+    "typescript-eslint": "catalog:",
+    "husky": "catalog:"
   },
   "private": true
 }
