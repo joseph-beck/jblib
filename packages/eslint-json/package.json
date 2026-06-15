@@ -1,0 +1,60 @@
+{
+  "name": "@jblib/eslint-json",
+  "version": "0.0.1",
+  "description": "base eslint config for json files",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "eslint-plugin-jsonc": "catalog:",
+    "eslint-plugin-perfectionist": "catalog:",
+    "globals": "catalog:"
+  },
+  "devDependencies": {
+    "@types/eslint": "catalog:",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "tsdown": "catalog:",
+    "typescript": "catalog:",
+    "@jblib/eslint": "workspace:*"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0 || ^10.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "json",
+    "config"
+  ],
+  "author": {
+    "name": "Joseph Beck"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph-beck/jblib.git",
+    "directory": "packages/eslint-json"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "publishConfig": {
+    "exports": {
+      ".": "./dist/index.js",
+      "./package.json": "./package.json"
+    }
+  }
+}
