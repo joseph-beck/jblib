@@ -19,8 +19,8 @@
     "@eslint/js": "catalog:",
     "@stylistic/eslint-plugin": "catalog:",
     "eslint-plugin-import": "catalog:",
-    "eslint-plugin-simple-import-sort": "catalog:",
     "eslint-plugin-perfectionist": "catalog:",
+    "eslint-plugin-simple-import-sort": "catalog:",
     "globals": "catalog:",
     "typescript-eslint": "catalog:"
   },

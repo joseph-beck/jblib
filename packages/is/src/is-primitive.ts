@@ -1,7 +1,7 @@
 /**
  * Primitive type represents the primitive values.
  */
-type Primitive = string | number | boolean | bigint | symbol | null | undefined
+type Primitive = bigint | boolean | null | number | string | symbol | undefined
 
 /**
  * isPrimitive checks if a value is a primitive.
