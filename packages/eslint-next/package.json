@@ -1,6 +1,6 @@
 {
   "name": "@jblib/eslint-next",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "base eslint next config",
   "type": "module",
   "exports": {
