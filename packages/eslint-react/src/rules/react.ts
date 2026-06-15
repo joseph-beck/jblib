@@ -36,6 +36,16 @@ const rules: Linter.RulesRecord = {
   'react/jsx-no-duplicate-props': 'error',
   // No useless fragments in JSX
   'react/jsx-no-useless-fragment': 'error',
+  // Enforce consistent prop sorting in JSX
+  'react/jsx-sort-props': [
+    'error',
+    {
+      callbacksLast: true,
+      multiline: 'last',
+      reservedFirst: true,
+      shorthandFirst: true,
+    },
+  ],
   // Warn against use of array index as key
   'react/no-array-index-key': 'warn',
   // Enforce that children is not used as a prop
