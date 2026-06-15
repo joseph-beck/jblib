@@ -34,7 +34,7 @@ const plugins = {
 const config: Linter.Config[] = [
   ...defaults,
   {
-    ignores: ['**/build/**', '**/coverage/**', '**/dist/**', '**/dev-dist/**', '**/.vite/**'],
+    ignores: ['**/build/**', '**/coverage/**', '**/dist/**', '**/dev-dist/**', '**/.vite/**', '**/*.json'],
     name: 'jblib/ignore',
   },
   {
