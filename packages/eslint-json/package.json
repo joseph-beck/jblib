@@ -21,12 +21,12 @@
     "globals": "catalog:"
   },
   "devDependencies": {
+    "@jblib/eslint": "workspace:*",
     "@types/eslint": "catalog:",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "tsdown": "catalog:",
-    "typescript": "catalog:",
-    "@jblib/eslint": "workspace:*"
+    "typescript": "catalog:"
   },
   "peerDependencies": {
     "eslint": "^9.0.0 || ^10.0.0"
