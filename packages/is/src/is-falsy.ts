@@ -1,4 +1,4 @@
-type Falsy = false | 0 | 0n | '' | null | undefined
+type Falsy = '' | 0 | 0n | false | null | undefined
 
 /**
  * isFalsy checks if a value is falsy.

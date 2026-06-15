@@ -12,6 +12,6 @@
  * isDefined(undefined) // false
  * ```
  */
-const isDefined = <T>(v: T | null | undefined): v is T => v !== null && v !== undefined
+const isDefined = <T>(v: null | T | undefined): v is T => v !== null && v !== undefined
 
 export { isDefined }
