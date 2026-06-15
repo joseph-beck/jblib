@@ -17,10 +17,10 @@ const plugins = {
 
 const config: Linter.Config[] = [
   {
-    name: 'jblib/tsx',
     files: ['**/*.{ts,tsx}'],
-    rules,
+    name: 'jblib/tsx',
     plugins,
+    rules,
   },
 ]
 

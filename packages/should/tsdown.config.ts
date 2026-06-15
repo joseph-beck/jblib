@@ -1,23 +1,23 @@
 import { defineConfig } from 'tsdown'
 
 export default defineConfig({
-  entry: ['./src/index.ts'],
-  format: ['esm'],
-  platform: 'node',
-  unbundle: true,
-  dts: true,
-  sourcemap: true,
+  attw: {
+    level: 'error',
+    profile: 'esm-only',
+  },
   clean: true,
-  minify: false,
-  fixedExtension: false,
+  dts: true,
+  entry: ['./src/index.ts'],
   exports: {
     devExports: true,
   },
+  fixedExtension: false,
+  format: ['esm'],
+  minify: false,
+  platform: 'node',
   publint: {
     strict: true,
   },
-  attw: {
-    profile: 'esm-only',
-    level: 'error',
-  },
+  sourcemap: true,
+  unbundle: true,
 })

@@ -6,10 +6,10 @@ describe('is promise', () => {
   it('should return true for promises', () => {
     expect(
       isPromise({
-        then: () => {
+        catch: () => {
           void 0
         },
-        catch: () => {
+        then: () => {
           void 0
         },
       }),
