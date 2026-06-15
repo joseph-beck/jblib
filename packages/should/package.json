@@ -1,6 +1,6 @@
 {
   "name": "@jblib/should",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "should, assertions that throw errors when conditions aren't met",
   "type": "module",
   "scripts": {

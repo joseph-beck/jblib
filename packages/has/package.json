@@ -1,6 +1,6 @@
 {
   "name": "@jblib/has",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "has, check if things have things",
   "type": "module",
   "scripts": {

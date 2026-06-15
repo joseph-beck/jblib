@@ -1,5 +1,12 @@
 # @jblib/eslint-react
 
+## 0.0.6
+
+### Patch Changes
+
+- 25b12d1: sort jsx props
+- 0d1bf8a: updated config for eslint
+
 ## 0.0.5
 
 ### Patch Changes
