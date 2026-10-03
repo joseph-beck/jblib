@@ -1,6 +1,5 @@
 {
   "name": "jblib",
-  "version": "0.0.1",
   "description": "libraries, utilities, and configs i use to make stuff",
   "scripts": {
     "build": "pnpm -r build",
@@ -21,7 +20,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@12.8.1",
   "devDependencies": {
     "@arethetypeswrong/core": "catalog:",
     "@changesets/cli": "catalog:",
