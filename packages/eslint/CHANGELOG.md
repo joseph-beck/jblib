@@ -1,5 +1,11 @@
 # @jblib/eslint
 
+## 0.0.11
+
+### Patch Changes
+
+- 12a2197: Fix eslint rule
+
 ## 0.0.10
 
 ### Patch Changes
