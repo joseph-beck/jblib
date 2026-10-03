@@ -8,6 +8,8 @@ const rules: Linter.RulesRecord = {
   'import/first': 'error',
   // Enforce newline after imports
   'import/newline-after-import': 'error',
+  // Enforce no absolute paths
+  'import/no-absolute-path': 'error',
   // Enforce no commonjs imports
   'import/no-commonjs': 'error',
   // Enforce no duplicate imports
