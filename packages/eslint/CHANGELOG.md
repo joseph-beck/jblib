@@ -1,5 +1,13 @@
 # @jblib/eslint
 
+## 0.0.9
+
+### Patch Changes
+
+- 3c16d5a: Bump deps
+- 5385918: Update eslint configurations
+- 2cc03a8: No absolute paths
+
 ## 0.0.8
 
 ### Patch Changes

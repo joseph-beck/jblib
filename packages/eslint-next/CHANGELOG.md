@@ -1,5 +1,11 @@
 # @jblib/eslint-next
 
+## 0.0.4
+
+### Patch Changes
+
+- 3c16d5a: Bump deps
+
 ## 0.0.3
 
 ### Patch Changes

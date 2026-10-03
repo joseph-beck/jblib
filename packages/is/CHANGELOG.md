@@ -1,5 +1,11 @@
 # @jblib/is
 
+## 0.0.10
+
+### Patch Changes
+
+- 3c16d5a: Bump deps
+
 ## 0.0.9
 
 ### Patch Changes

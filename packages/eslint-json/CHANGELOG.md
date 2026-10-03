@@ -1,5 +1,11 @@
 # @jblib/eslint-json
 
+## 0.0.3
+
+### Patch Changes
+
+- 3c16d5a: Bump deps
+
 ## 0.0.2
 
 ### Patch Changes

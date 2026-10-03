@@ -1,5 +1,11 @@
 # @jblib/should
 
+## 0.0.8
+
+### Patch Changes
+
+- 3c16d5a: Bump deps
+
 ## 0.0.7
 
 ### Patch Changes
