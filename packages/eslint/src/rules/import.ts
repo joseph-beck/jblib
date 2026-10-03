@@ -16,8 +16,6 @@ const rules: Linter.RulesRecord = {
   'import/no-duplicates': 'error',
   // Enforce no relative packages
   'import/no-relative-packages': 'error',
-  // Enforce no relative parent imports
-  'import/no-relative-parent-imports': 'error',
   // Enforce no self imports
   'import/no-self-import': 'error',
   // Enforce no useless path segments and no useless index files
