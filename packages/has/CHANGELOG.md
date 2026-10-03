@@ -1,5 +1,11 @@
 # @jblib/has
 
+## 0.0.7
+
+### Patch Changes
+
+- a86e2e0: Update ci and changelogs
+
 ## 0.0.6
 
 ### Patch Changes

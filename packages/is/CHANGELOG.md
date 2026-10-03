@@ -1,5 +1,11 @@
 # @jblib/is
 
+## 0.0.11
+
+### Patch Changes
+
+- a86e2e0: Update ci and changelogs
+
 ## 0.0.10
 
 ### Patch Changes
