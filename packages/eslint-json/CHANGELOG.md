@@ -1,5 +1,11 @@
 # @jblib/eslint-json
 
+## 0.0.4
+
+### Patch Changes
+
+- a86e2e0: Update ci and changelogs
+
 ## 0.0.3
 
 ### Patch Changes

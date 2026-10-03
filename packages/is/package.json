@@ -1,6 +1,6 @@
 {
   "name": "@jblib/is",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "is, condition checks",
   "type": "module",
   "scripts": {
